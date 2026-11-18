@@ -1,8 +1,14 @@
 {
   "name": "architecture-map",
   "version": "0.1.0",
-  "description": "Interactive module-level architecture map backed by Hyper's indexed code call graph.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyper-code-harness/architecture-map"
+  },
   "procs": {
-    "src": "src"
+    "src": "src",
+    "label": "Architecture map",
+    "icon": "ph-graph",
+    "description": "Summarize Hyper's indexed function call graph as a module dependency map for architecture exploration, coupling review, cycle discovery, and interactive Canvas visualization."
   }
 }
